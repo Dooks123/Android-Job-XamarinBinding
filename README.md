@@ -5,10 +5,16 @@ See the project https://github.com/evernote/android-job
 
 This binding allows you to use the library in Xamarin.Android C#
 
-<h3>Library</h3>
+## Library
 This binding project will output a dll file in the Debug or Release mode which you need to reference in your Xamarin.Android Project.
 
-<h3>Proguard</h3>
+### Additional References
+Using NuGet, install the following (Accept and install all extra packages when asked):
++ Xamarin.Android.Support.Compat
++ Xamarin.Android.Support.v4
++ Xamarin.GooglePlayServices.Gcm (Not required, but will work beter and support even more devices)
+
+### Proguard
 You need to include the following lines in your android project's proguard.cfg file:
 
     -dontwarn com.evernote.android.job.gcm.**
@@ -20,7 +26,7 @@ You need to include the following lines in your android project's proguard.cfg f
     -keep public class com.evernote.android.job.JobBootReceiver
     -keep public class com.evernote.android.job.JobRescheduleService
 
-<h3>Android Manifest</h3>
+### Android Manifest
 You need to add the following in your Android Manifest under application for the services and receivers to work properly.
 
     <service android:name="com.evernote.android.job.v21.PlatformJobService" android:exported="false" android:permission="android.permission.BIND_JOB_SERVICE"/>
@@ -54,4 +60,5 @@ Also make sure to have the following permissions:
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
 
-Usage is the same as the original project <a href="https://github.com/evernote/android-job#usage" target="_blank">here</a>
+### Usage
+The same as the original project <a href="https://github.com/evernote/android-job#usage" target="_blank">here</a>

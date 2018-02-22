@@ -1,0 +1,291 @@
+﻿<metadata>
+  <attr path="/api/package[@name='com.evernote.android.job']/class[@name='DailyJob']/method[@name='schedule']/parameter[@name='p0']" name="name">baseBuilder</attr>
+  <attr path="/api/package[@name='com.evernote.android.job']/class[@name='DailyJob']/method[@name='schedule']/parameter[@name='p1']" name="name">startMs</attr>
+  <attr path="/api/package[@name='com.evernote.android.job']/class[@name='DailyJob']/method[@name='schedule']/parameter[@name='p2']" name="name">endMs</attr>
+  <attr path="/api/package[@name='com.evernote.android.job']/class[@name='DailyJob']/method[@name='scheduleAsync']/parameter[@name='p0']" name="name">baseBuilder</attr>
+  <attr path="/api/package[@name='com.evernote.android.job']/class[@name='DailyJob']/method[@name='scheduleAsync']/parameter[@name='p1']" name="name">startMs</attr>
+  <attr path="/api/package[@name='com.evernote.android.job']/class[@name='DailyJob']/method[@name='scheduleAsync']/parameter[@name='p2']" name="name">endMs</attr>
+  <attr path="/api/package[@name='com.evernote.android.job']/class[@name='DailyJob']/method[@name='scheduleAsync']/parameter[@name='p3']" name="name">callback</attr>
+  <attr path="/api/package[@name='com.evernote.android.job']/class[@name='DailyJob']/method[@name='startNowOnce']/parameter[@name='p0']" name="name">baseBuilder</attr>
+  <attr path="/api/package[@name='com.evernote.android.job']/class[@name='DailyJob']/method[@name='onRunJob']/parameter[@name='p0']" name="name">parameters</attr>
+  <attr path="/api/package[@name='com.evernote.android.job']/class[@name='DailyJob']/method[@name='onRunDailyJob']/parameter[@name='p0']" name="name">parameters</attr>
+
+  <attr path="/api/package[@name='com.evernote.android.job']/class[@name='DailyJob.DailyJobResult']/method[@name='valueOf']/parameter[@name='p0']" name="name">strValue</attr>
+
+  <attr path="/api/package[@name='com.evernote.android.job']/interface[@name='JobCreator']/method[@name='create']/parameter[@name='p0']" name="name">tag</attr>
+  
+  <attr path="/api/package[@name='com.evernote.android.job']/class[@name='JobCreator.AddJobCreatorReceiver']/method[@name='addJobCreator']/parameter[@name='p0']" name="name">context</attr>
+  <attr path="/api/package[@name='com.evernote.android.job']/class[@name='JobCreator.AddJobCreatorReceiver']/method[@name='addJobCreator']/parameter[@name='p1']" name="name">manager</attr>
+  <attr path="/api/package[@name='com.evernote.android.job']/class[@name='JobCreator.AddJobCreatorReceiver']/method[@name='onReceive']/parameter[@name='p0']" name="name">context</attr>
+  <attr path="/api/package[@name='com.evernote.android.job']/class[@name='JobCreator.AddJobCreatorReceiver']/method[@name='onReceive']/parameter[@name='p1']" name="name">intent</attr>
+  
+  <attr path="/api/package[@name='com.evernote.android.job']/interface[@name='JobProxy']/method[@name='plantOneOff']/parameter[@name='p0']" name="name">request</attr>
+  <attr path="/api/package[@name='com.evernote.android.job']/interface[@name='JobProxy']/method[@name='plantPeriodic']/parameter[@name='p0']" name="name">request</attr>
+  <attr path="/api/package[@name='com.evernote.android.job']/interface[@name='JobProxy']/method[@name='plantPeriodicFlexSupport']/parameter[@name='p0']" name="name">request</attr>
+  <attr path="/api/package[@name='com.evernote.android.job']/interface[@name='JobProxy']/method[@name='cancel']/parameter[@name='p0']" name="name">jobId</attr>
+  <attr path="/api/package[@name='com.evernote.android.job']/interface[@name='JobProxy']/method[@name='isPlatformJobScheduled']/parameter[@name='p0']" name="name">request</attr>
+
+  <attr path="/api/package[@name='com.evernote.android.job']/class[@name='JobProxy.Common']/constructor[@name='JobProxy.Common']/parameter[@name='p0']" name="name">service</attr>
+  <attr path="/api/package[@name='com.evernote.android.job']/class[@name='JobProxy.Common']/constructor[@name='JobProxy.Common']/parameter[@name='p1']" name="name">cat</attr>
+  <attr path="/api/package[@name='com.evernote.android.job']/class[@name='JobProxy.Common']/constructor[@name='JobProxy.Common']/parameter[@name='p2']" name="name">jobId</attr>
+  <attr path="/api/package[@name='com.evernote.android.job']/class[@name='JobProxy.Common']/method[@name='completeWakefulIntent']/parameter[@name='p0']" name="name">intent</attr>
+  <attr path="/api/package[@name='com.evernote.android.job']/class[@name='JobProxy.Common']/method[@name='executeJobRequest']/parameter[@name='p0']" name="name">request</attr>
+  <attr path="/api/package[@name='com.evernote.android.job']/class[@name='JobProxy.Common']/method[@name='executeJobRequest']/parameter[@name='p1']" name="name">transientExtras</attr>
+  <attr path="/api/package[@name='com.evernote.android.job']/class[@name='JobProxy.Common']/method[@name='getAverageDelayMs']/parameter[@name='p0']" name="name">request</attr>
+  <attr path="/api/package[@name='com.evernote.android.job']/class[@name='JobProxy.Common']/method[@name='getAverageDelayMsSupportFlex']/parameter[@name='p0']" name="name">request</attr>
+  <attr path="/api/package[@name='com.evernote.android.job']/class[@name='JobProxy.Common']/method[@name='getEndMs']/parameter[@name='p0']" name="name">request</attr>
+  <attr path="/api/package[@name='com.evernote.android.job']/class[@name='JobProxy.Common']/method[@name='getEndMs']/parameter[@name='p1']" name="name">shiftEnd</attr>
+  <attr path="/api/package[@name='com.evernote.android.job']/class[@name='JobProxy.Common']/method[@name='getEndMsSupportFlex']/parameter[@name='p0']" name="name">request</attr>
+  <attr path="/api/package[@name='com.evernote.android.job']/class[@name='JobProxy.Common']/method[@name='getPendingRequest']/parameter[@name='p0']" name="name">cleanUpOrphanedJob</attr>
+  <attr path="/api/package[@name='com.evernote.android.job']/class[@name='JobProxy.Common']/method[@name='getPendingRequest']/parameter[@name='p1']" name="name">markStarting</attr>
+  <attr path="/api/package[@name='com.evernote.android.job']/class[@name='JobProxy.Common']/method[@name='getRescheduleCount']/parameter[@name='p0']" name="name">request</attr>
+  <attr path="/api/package[@name='com.evernote.android.job']/class[@name='JobProxy.Common']/method[@name='getStartMs']/parameter[@name='p0']" name="name">request</attr>
+  <attr path="/api/package[@name='com.evernote.android.job']/class[@name='JobProxy.Common']/method[@name='getStartMsSupportFlex']/parameter[@name='p0']" name="name">request</attr>
+  <attr path="/api/package[@name='com.evernote.android.job']/class[@name='JobProxy.Common']/method[@name='markStarting']/parameter[@name='p0']" name="name">request</attr>
+  <attr path="/api/package[@name='com.evernote.android.job']/class[@name='JobProxy.Common']/method[@name='startWakefulService']/parameter[@name='p0']" name="name">context</attr>
+  <attr path="/api/package[@name='com.evernote.android.job']/class[@name='JobProxy.Common']/method[@name='startWakefulService']/parameter[@name='p1']" name="name">intent</attr>
+  
+  <attr path="/api/package[@name='com.evernote.android.job']/class[@name='Job']/method[@name='onRunJob']/parameter[@name='p0']" name="name">parameters</attr>
+  <attr path="/api/package[@name='com.evernote.android.job']/class[@name='Job']/method[@name='onRunJob']/parameter[@name='p0']" name="name">parameters</attr>
+  <attr path="/api/package[@name='com.evernote.android.job']/class[@name='Job']/method[@name='onReschedule']/parameter[@name='p0']" name="name">newJobId</attr>
+
+  <attr path="/api/package[@name='com.evernote.android.job']/class[@name='Job.Result']/method[@name='valueOf']/parameter[@name='p0']" name="name">strValue</attr>
+
+  <attr path="/api/package[@name='com.evernote.android.job']/class[@name='JobApi']/method[@name='isSupported']/parameter[@name='p0']" name="name">context</attr>
+  <attr path="/api/package[@name='com.evernote.android.job']/class[@name='JobApi']/method[@name='getDefault']/parameter[@name='p0']" name="name">context</attr>
+  <attr path="/api/package[@name='com.evernote.android.job']/class[@name='JobApi']/method[@name='valueOf' and count(parameter)=1 and parameter[1][@type='java.lang.String']]/parameter[@name='p0']" name="name">strValue</attr>
+
+  <attr path="/api/package[@name='com.evernote.android.job']/class[@name='JobBootReceiver']/method[@name='onReceive']/parameter[@name='p0']" name="name">context</attr>
+  <attr path="/api/package[@name='com.evernote.android.job']/class[@name='JobBootReceiver']/method[@name='onReceive']/parameter[@name='p1']" name="name">intent</attr>
+
+  <attr path="/api/package[@name='com.evernote.android.job']/class[@name='JobConfig']/method[@name='addLogger']/parameter[@name='p0']" name="name">logger</attr>
+  <attr path="/api/package[@name='com.evernote.android.job']/class[@name='JobConfig']/method[@name='forceApi']/parameter[@name='p0']" name="name">api</attr>
+  <attr path="/api/package[@name='com.evernote.android.job']/class[@name='JobConfig']/method[@name='isApiEnabled']/parameter[@name='p0']" name="name">api</attr>
+  <attr path="/api/package[@name='com.evernote.android.job']/class[@name='JobConfig']/method[@name='removeLogger']/parameter[@name='p0']" name="name">logger</attr>
+  <attr path="/api/package[@name='com.evernote.android.job']/class[@name='JobConfig']/method[@name='setApiEnabled']/parameter[@name='p0']" name="name">api</attr>
+  <attr path="/api/package[@name='com.evernote.android.job']/class[@name='JobConfig']/method[@name='setApiEnabled']/parameter[@name='p1']" name="name">enabled</attr>
+  <attr path="/api/package[@name='com.evernote.android.job']/class[@name='JobConfig']/method[@name='setJobReschedulePause']/parameter[@name='p0']" name="name">pause</attr>
+  <attr path="/api/package[@name='com.evernote.android.job']/class[@name='JobConfig']/method[@name='setJobReschedulePause']/parameter[@name='p1']" name="name">timeUnit</attr>
+
+  <attr path="/api/package[@name='com.evernote.android.job']/class[@name='JobManager']/method[@name='addJobCreator']/parameter[@name='p0']" name="name">jobCreator</attr>
+  <attr path="/api/package[@name='com.evernote.android.job']/class[@name='JobManager']/method[@name='cancel']/parameter[@name='p0']" name="name">jobId</attr>
+  <attr path="/api/package[@name='com.evernote.android.job']/class[@name='JobManager']/method[@name='cancelAllForTag']/parameter[@name='p0']" name="name">tag</attr>
+  <attr path="/api/package[@name='com.evernote.android.job']/class[@name='JobManager']/method[@name='create']/parameter[@name='p0']" name="name">context</attr>
+  <attr path="/api/package[@name='com.evernote.android.job']/class[@name='JobManager']/method[@name='getAllJobRequestsForTag']/parameter[@name='p0']" name="name">tag</attr>
+  <attr path="/api/package[@name='com.evernote.android.job']/class[@name='JobManager']/method[@name='getAllJobsForTag']/parameter[@name='p0']" name="name">tag</attr>
+  <attr path="/api/package[@name='com.evernote.android.job']/class[@name='JobManager']/method[@name='getJob']/parameter[@name='p0']" name="name">jobId</attr>
+  <attr path="/api/package[@name='com.evernote.android.job']/class[@name='JobManager']/method[@name='getJobRequest']/parameter[@name='p0']" name="name">jobId</attr>
+  <attr path="/api/package[@name='com.evernote.android.job']/class[@name='JobManager']/method[@name='removeJobCreator']/parameter[@name='p0']" name="name">jobCreator</attr>
+  <attr path="/api/package[@name='com.evernote.android.job']/class[@name='JobManager']/method[@name='schedule']/parameter[@name='p0']" name="name">request</attr>
+
+  <attr path="/api/package[@name='com.evernote.android.job']/class[@name='JobManagerCreateException']/constructor[@name='JobManagerCreateException']/parameter[@name='p0']" name="name">s</attr>
+
+  <attr path="/api/package[@name='com.evernote.android.job']/class[@name='JobProxyIllegalStateException']/constructor[@name='JobProxyIllegalStateException' and parameter[1][@type='java.lang.String']]/parameter[@name='p0']" name="name">s</attr>
+  <attr path="/api/package[@name='com.evernote.android.job']/class[@name='JobProxyIllegalStateException']/constructor[@name='JobProxyIllegalStateException' and parameter[1][@type='java.lang.Throwable']]/parameter[@name='p0']" name="name">cause</attr>
+
+  <attr path="/api/package[@name='com.evernote.android.job']/class[@name='JobRequest.BackoffPolicy']/method[@name='valueOf']/parameter[@name='p0']" name="name">strValue</attr>
+
+  <attr path="/api/package[@name='com.evernote.android.job']/class[@name='JobRequest.Builder']/constructor[@name='JobRequest.Builder' and parameter[1][@type='java.lang.String']]/parameter[@name='p0']" name="name">tag</attr>
+  <attr path="/api/package[@name='com.evernote.android.job']/class[@name='JobRequest.Builder']/method[@name='addExtras']/parameter[@name='p0']" name="name">extras</attr>
+  <attr path="/api/package[@name='com.evernote.android.job']/class[@name='JobRequest.Builder']/method[@name='setBackoffCriteria']/parameter[@name='p0']" name="name">backoffMs</attr>
+  <attr path="/api/package[@name='com.evernote.android.job']/class[@name='JobRequest.Builder']/method[@name='setBackoffCriteria']/parameter[@name='p1']" name="name">backoffPolicy</attr>
+  <attr path="/api/package[@name='com.evernote.android.job']/class[@name='JobRequest.Builder']/method[@name='setExact']/parameter[@name='p0']" name="name">exactInMs</attr>
+  <attr path="/api/package[@name='com.evernote.android.job']/class[@name='JobRequest.Builder']/method[@name='setExecutionWindow']/parameter[@name='p0']" name="name">startInMs</attr>
+  <attr path="/api/package[@name='com.evernote.android.job']/class[@name='JobRequest.Builder']/method[@name='setExecutionWindow']/parameter[@name='p1']" name="name">endInMs</attr>
+  <attr path="/api/package[@name='com.evernote.android.job']/class[@name='JobRequest.Builder']/method[@name='setExtras']/parameter[@name='p0']" name="name">extras</attr>
+  <attr path="/api/package[@name='com.evernote.android.job']/class[@name='JobRequest.Builder']/method[@name='setPeriodic']/parameter[@name='p0']" name="name">intervalMs</attr>
+  <attr path="/api/package[@name='com.evernote.android.job']/class[@name='JobRequest.Builder']/method[@name='setPeriodic']/parameter[@name='p1']" name="name">flexMs</attr>
+  <attr path="/api/package[@name='com.evernote.android.job']/class[@name='JobRequest.Builder']/method[@name='setRequiredNetworkType']/parameter[@name='p0']" name="name">networkType</attr>
+  <attr path="/api/package[@name='com.evernote.android.job']/class[@name='JobRequest.Builder']/method[@name='setRequirementsEnforced']/parameter[@name='p0']" name="name">enforced</attr>
+  <attr path="/api/package[@name='com.evernote.android.job']/class[@name='JobRequest.Builder']/method[@name='setRequiresBatteryNotLow']/parameter[@name='p0']" name="name">requiresBatteryNotLow</attr>
+  <attr path="/api/package[@name='com.evernote.android.job']/class[@name='JobRequest.Builder']/method[@name='setRequiresCharging']/parameter[@name='p0']" name="name">requiresCharging</attr>
+  <attr path="/api/package[@name='com.evernote.android.job']/class[@name='JobRequest.Builder']/method[@name='setRequiresDeviceIdle']/parameter[@name='p0']" name="name">requiresDeviceIdle</attr>
+  <attr path="/api/package[@name='com.evernote.android.job']/class[@name='JobRequest.Builder']/method[@name='setRequiresStorageNotLow']/parameter[@name='p0']" name="name">requiresStorageNotLow</attr>
+  <attr path="/api/package[@name='com.evernote.android.job']/class[@name='JobRequest.Builder']/method[@name='setTransientExtras']/parameter[@name='p0']" name="name">extras</attr>
+  <attr path="/api/package[@name='com.evernote.android.job']/class[@name='JobRequest.Builder']/method[@name='setUpdateCurrent']/parameter[@name='p0']" name="name">updateCurrent</attr>
+  <attr path="/api/package[@name='com.evernote.android.job']/interface[@name='JobRequest.JobScheduledCallback']/method[@name='onJobScheduled']/parameter[@name='p0']" name="name">jobId</attr>
+  <attr path="/api/package[@name='com.evernote.android.job']/interface[@name='JobRequest.JobScheduledCallback']/method[@name='onJobScheduled']/parameter[@name='p1']" name="name">tag</attr>
+  <attr path="/api/package[@name='com.evernote.android.job']/interface[@name='JobRequest.JobScheduledCallback']/method[@name='onJobScheduled']/parameter[@name='p2']" name="name">exception</attr>
+  <attr path="/api/package[@name='com.evernote.android.job']/class[@name='JobRequest.NetworkType']/method[@name='valueOf']/parameter[@name='p0']" name="name">strValue</attr>
+  <attr path="/api/package[@name='com.evernote.android.job']/class[@name='JobRequest']/method[@name='scheduleAsync']/parameter[@name='p0']" name="name">callback</attr>
+
+  <attr path="/api/package[@name='com.evernote.android.job.util']/class[@name='Device']/method[@name='getBatteryStatus']/parameter[@name='p0']" name="name">context</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.util']/class[@name='Device']/method[@name='getNetworkType']/parameter[@name='p0']" name="name">context</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.util']/class[@name='Device']/method[@name='isIdle']/parameter[@name='p0']" name="name">context</attr>
+
+  <attr path="/api/package[@name='com.evernote.android.job.util']/interface[@name='JobLogger']/method[@name='log']/parameter[@name='p0']" name="name">priority</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.util']/interface[@name='JobLogger']/method[@name='log']/parameter[@name='p1']" name="name">tag</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.util']/interface[@name='JobLogger']/method[@name='log']/parameter[@name='p2']" name="name">message</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.util']/interface[@name='JobLogger']/method[@name='log']/parameter[@name='p3']" name="name">t</attr>
+
+  <attr path="/api/package[@name='com.evernote.android.job.util']/class[@name='JobCat']/constructor[@name='JobCat' and count(parameter)=1 and parameter[1][@type='java.lang.Class&lt;?&gt;']]/parameter[@name='p0']" name="name">classA</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.util']/class[@name='JobCat']/constructor[@name='JobCat' and parameter[1][@type='java.lang.String']]/parameter[@name='p0']" name="name">tag</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.util']/class[@name='JobCat']/constructor[@name='JobCat' and parameter[1][@type='java.lang.String']]/parameter[@name='p1']" name="name">enabled</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.util']/class[@name='JobCat']/method[@name='addLogger']/parameter[@name='p0']" name="name">logger</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.util']/class[@name='JobCat']/method[@name='d' and parameter[1][@type='java.lang.String']]/parameter[@name='p0']" name="name">message</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.util']/class[@name='JobCat']/method[@name='d' and parameter[1][@type='java.lang.String']]/parameter[@name='p1']" name="name">args</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.util']/class[@name='JobCat']/method[@name='d' and parameter[1][@type='java.lang.Throwable']]/parameter[@name='p0']" name="name">t</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.util']/class[@name='JobCat']/method[@name='d' and parameter[1][@type='java.lang.Throwable']]/parameter[@name='p1']" name="name">message</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.util']/class[@name='JobCat']/method[@name='d' and parameter[1][@type='java.lang.Throwable']]/parameter[@name='p2']" name="name">args</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.util']/class[@name='JobCat']/method[@name='e' and parameter[1][@type='java.lang.String']]/parameter[@name='p0']" name="name">message</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.util']/class[@name='JobCat']/method[@name='e' and parameter[1][@type='java.lang.String']]/parameter[@name='p1']" name="name">args</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.util']/class[@name='JobCat']/method[@name='e' and parameter[1][@type='java.lang.Throwable']]/parameter[@name='p0']" name="name">t</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.util']/class[@name='JobCat']/method[@name='e' and parameter[1][@type='java.lang.Throwable']]/parameter[@name='p1']" name="name">message</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.util']/class[@name='JobCat']/method[@name='e' and parameter[1][@type='java.lang.Throwable']]/parameter[@name='p2']" name="name">args</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.util']/class[@name='JobCat']/method[@name='i']/parameter[@name='p0']" name="name">message</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.util']/class[@name='JobCat']/method[@name='i']/parameter[@name='p1']" name="name">args</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.util']/class[@name='JobCat']/method[@name='w' and parameter[1][@type='java.lang.String']]/parameter[@name='p0']" name="name">message</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.util']/class[@name='JobCat']/method[@name='w' and parameter[1][@type='java.lang.String']]/parameter[@name='p1']" name="name">args</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.util']/class[@name='JobCat']/method[@name='w' and parameter[1][@type='java.lang.Throwable']]/parameter[@name='p0']" name="name">t</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.util']/class[@name='JobCat']/method[@name='w' and parameter[1][@type='java.lang.Throwable']]/parameter[@name='p1']" name="name">message</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.util']/class[@name='JobCat']/method[@name='w' and parameter[1][@type='java.lang.Throwable']]/parameter[@name='p2']" name="name">args</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.util']/class[@name='JobCat']/method[@name='log']/parameter[@name='p0']" name="name">priority</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.util']/class[@name='JobCat']/method[@name='log']/parameter[@name='p1']" name="name">tag</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.util']/class[@name='JobCat']/method[@name='log']/parameter[@name='p2']" name="name">message</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.util']/class[@name='JobCat']/method[@name='log']/parameter[@name='p3']" name="name">t</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.util']/class[@name='JobCat']/method[@name='removeLogger']/parameter[@name='p0']" name="name">logger</attr>
+
+  <attr path="/api/package[@name='com.evernote.android.job.util']/class[@name='JobPreconditions']/method[@name='checkArgumentFinite']/parameter[@name='p0']" name="name">value</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.util']/class[@name='JobPreconditions']/method[@name='checkArgumentFinite']/parameter[@name='p1']" name="name">valueName</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.util']/class[@name='JobPreconditions']/method[@name='checkArgumentInRange']/parameter[@name='p0']" name="name">value</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.util']/class[@name='JobPreconditions']/method[@name='checkArgumentInRange']/parameter[@name='p1']" name="name">lower</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.util']/class[@name='JobPreconditions']/method[@name='checkArgumentInRange']/parameter[@name='p2']" name="name">upper</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.util']/class[@name='JobPreconditions']/method[@name='checkArgumentInRange']/parameter[@name='p3']" name="name">valueName</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.util']/class[@name='JobPreconditions']/method[@name='checkArgumentNonnegative']/parameter[@name='p0']" name="name">value</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.util']/class[@name='JobPreconditions']/method[@name='checkArgumentNonnegative']/parameter[@name='p1']" name="name">errorMessage</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.util']/class[@name='JobPreconditions']/method[@name='checkArgumentPositive']/parameter[@name='p0']" name="name">value</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.util']/class[@name='JobPreconditions']/method[@name='checkArgumentPositive']/parameter[@name='p1']" name="name">errorMessage</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.util']/class[@name='JobPreconditions']/method[@name='checkArrayElementsInRange']/parameter[@name='p0']" name="name">value</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.util']/class[@name='JobPreconditions']/method[@name='checkArrayElementsInRange']/parameter[@name='p1']" name="name">lower</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.util']/class[@name='JobPreconditions']/method[@name='checkArrayElementsInRange']/parameter[@name='p2']" name="name">upper</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.util']/class[@name='JobPreconditions']/method[@name='checkArrayElementsInRange']/parameter[@name='p3']" name="name">valueName</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.util']/class[@name='JobPreconditions']/method[@name='checkArrayElementsNotNull']/parameter[@name='p0']" name="name">value</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.util']/class[@name='JobPreconditions']/method[@name='checkArrayElementsNotNull']/parameter[@name='p1']" name="name">valueName</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.util']/class[@name='JobPreconditions']/method[@name='checkCollectionElementsNotNull']/parameter[@name='p0']" name="name">value</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.util']/class[@name='JobPreconditions']/method[@name='checkCollectionElementsNotNull']/parameter[@name='p1']" name="name">valueName</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.util']/class[@name='JobPreconditions']/method[@name='checkCollectionNotEmpty']/parameter[@name='p0']" name="name">value</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.util']/class[@name='JobPreconditions']/method[@name='checkCollectionNotEmpty']/parameter[@name='p1']" name="name">valueName</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.util']/class[@name='JobPreconditions']/method[@name='checkFlagsArgument']/parameter[@name='p0']" name="name">requestedFlags</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.util']/class[@name='JobPreconditions']/method[@name='checkFlagsArgument']/parameter[@name='p1']" name="name">allowedFlags</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.util']/class[@name='JobPreconditions']/method[@name='checkNotEmpty']/parameter[@name='p0']" name="type">Java.Lang.ICharSequence</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.util']/class[@name='JobPreconditions']/method[@name='checkNotEmpty']/parameter[@name='p0']" name="name">reference</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.util']/class[@name='JobPreconditions']/method[@name='checkNotNull']/parameter[@name='p0']" name="name">reference</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.util']/class[@name='JobPreconditions']/method[@name='checkNotNull']/parameter[@name='p1']" name="name">errorMessage</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.util']/class[@name='JobPreconditions']/method[@name='checkState']/parameter[@name='p0']" name="name">expression</attr>
+
+  <attr path="/api/package[@name='com.evernote.android.job.util']/class[@name='JobUtil']/method[@name='hasBootPermission']/parameter[@name='p0']" name="name">context</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.util']/class[@name='JobUtil']/method[@name='hasWakeLockPermission']/parameter[@name='p0']" name="name">context</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.util']/class[@name='JobUtil']/method[@name='timeToString']/parameter[@name='p0']" name="name">timeMs</attr>
+
+  <attr path="/api/package[@name='com.evernote.android.job.util.support']/class[@name='PersistableBundleCompat']/constructor[@name='PersistableBundleCompat']/parameter[@name='p0']" name="name">bundle</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.util.support']/class[@name='PersistableBundleCompat']/method[@name='containsKey']/parameter[@name='p0']" name="name">key</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.util.support']/class[@name='PersistableBundleCompat']/method[@name='fromXml']/parameter[@name='p0']" name="name">xml</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.util.support']/class[@name='PersistableBundleCompat']/method[@name='get']/parameter[@name='p0']" name="name">key</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.util.support']/class[@name='PersistableBundleCompat']/method[@name='getBoolean']/parameter[@name='p0']" name="name">key</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.util.support']/class[@name='PersistableBundleCompat']/method[@name='getBoolean']/parameter[@name='p1']" name="name">defaultValue</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.util.support']/class[@name='PersistableBundleCompat']/method[@name='getDouble']/parameter[@name='p0']" name="name">key</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.util.support']/class[@name='PersistableBundleCompat']/method[@name='getDouble']/parameter[@name='p1']" name="name">defaultValue</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.util.support']/class[@name='PersistableBundleCompat']/method[@name='getDoubleArray']/parameter[@name='p0']" name="name">key</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.util.support']/class[@name='PersistableBundleCompat']/method[@name='getInt']/parameter[@name='p0']" name="name">key</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.util.support']/class[@name='PersistableBundleCompat']/method[@name='getInt']/parameter[@name='p1']" name="name">defaultValue</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.util.support']/class[@name='PersistableBundleCompat']/method[@name='getIntArray']/parameter[@name='p0']" name="name">key</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.util.support']/class[@name='PersistableBundleCompat']/method[@name='getLong']/parameter[@name='p0']" name="name">key</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.util.support']/class[@name='PersistableBundleCompat']/method[@name='getLong']/parameter[@name='p1']" name="name">defaultValue</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.util.support']/class[@name='PersistableBundleCompat']/method[@name='getLongArray']/parameter[@name='p0']" name="name">key</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.util.support']/class[@name='PersistableBundleCompat']/method[@name='getPersistableBundleCompat']/parameter[@name='p0']" name="name">key</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.util.support']/class[@name='PersistableBundleCompat']/method[@name='getString']/parameter[@name='p0']" name="name">key</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.util.support']/class[@name='PersistableBundleCompat']/method[@name='getString']/parameter[@name='p1']" name="name">defaultValue</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.util.support']/class[@name='PersistableBundleCompat']/method[@name='getStringArray']/parameter[@name='p0']" name="name">key</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.util.support']/class[@name='PersistableBundleCompat']/method[@name='putAll']/parameter[@name='p0']" name="name">bundle</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.util.support']/class[@name='PersistableBundleCompat']/method[@name='putBoolean']/parameter[@name='p0']" name="name">key</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.util.support']/class[@name='PersistableBundleCompat']/method[@name='putBoolean']/parameter[@name='p1']" name="name">value</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.util.support']/class[@name='PersistableBundleCompat']/method[@name='putDouble']/parameter[@name='p0']" name="name">key</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.util.support']/class[@name='PersistableBundleCompat']/method[@name='putDouble']/parameter[@name='p1']" name="name">value</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.util.support']/class[@name='PersistableBundleCompat']/method[@name='putDoubleArray']/parameter[@name='p0']" name="name">key</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.util.support']/class[@name='PersistableBundleCompat']/method[@name='putDoubleArray']/parameter[@name='p1']" name="name">value</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.util.support']/class[@name='PersistableBundleCompat']/method[@name='putInt']/parameter[@name='p0']" name="name">key</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.util.support']/class[@name='PersistableBundleCompat']/method[@name='putInt']/parameter[@name='p1']" name="name">value</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.util.support']/class[@name='PersistableBundleCompat']/method[@name='putIntArray']/parameter[@name='p0']" name="name">key</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.util.support']/class[@name='PersistableBundleCompat']/method[@name='putIntArray']/parameter[@name='p1']" name="name">value</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.util.support']/class[@name='PersistableBundleCompat']/method[@name='putLong']/parameter[@name='p0']" name="name">key</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.util.support']/class[@name='PersistableBundleCompat']/method[@name='putLong']/parameter[@name='p1']" name="name">value</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.util.support']/class[@name='PersistableBundleCompat']/method[@name='putLongArray']/parameter[@name='p0']" name="name">key</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.util.support']/class[@name='PersistableBundleCompat']/method[@name='putLongArray']/parameter[@name='p1']" name="name">value</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.util.support']/class[@name='PersistableBundleCompat']/method[@name='putPersistableBundleCompat']/parameter[@name='p0']" name="name">key</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.util.support']/class[@name='PersistableBundleCompat']/method[@name='putPersistableBundleCompat']/parameter[@name='p1']" name="name">value</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.util.support']/class[@name='PersistableBundleCompat']/method[@name='putString']/parameter[@name='p0']" name="name">key</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.util.support']/class[@name='PersistableBundleCompat']/method[@name='putString']/parameter[@name='p1']" name="name">value</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.util.support']/class[@name='PersistableBundleCompat']/method[@name='putStringArray']/parameter[@name='p0']" name="name">key</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.util.support']/class[@name='PersistableBundleCompat']/method[@name='putStringArray']/parameter[@name='p1']" name="name">value</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.util.support']/class[@name='PersistableBundleCompat']/method[@name='remove']/parameter[@name='p0']" name="name">key</attr>
+
+  <attr path="/api/package[@name='com.evernote.android.job.v14']/class[@name='JobProxy14']/constructor[@name='JobProxy14']/parameter[@name='p0']" name="name">context</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.v14']/class[@name='JobProxy14']/constructor[@name='JobProxy14']/parameter[@name='p1']" name="name">logTag</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.v14']/class[@name='JobProxy14']/method[@name='cancel']/parameter[@name='p0']" name="name">jobId</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.v14']/class[@name='JobProxy14']/method[@name='createPendingIntentFlags']/parameter[@name='p0']" name="name">repeating</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.v14']/class[@name='JobProxy14']/method[@name='getPendingIntent' and parameter[1][@type='com.evernote.android.job.JobRequest'] and parameter[2][@type='boolean']]/parameter[@name='p0']" name="name">request</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.v14']/class[@name='JobProxy14']/method[@name='getPendingIntent' and parameter[1][@type='com.evernote.android.job.JobRequest'] and parameter[2][@type='boolean']]/parameter[@name='p1']" name="name">repeating</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.v14']/class[@name='JobProxy14']/method[@name='getPendingIntent' and parameter[1][@type='com.evernote.android.job.JobRequest'] and parameter[2][@type='int']]/parameter[@name='p0']" name="name">request</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.v14']/class[@name='JobProxy14']/method[@name='getPendingIntent' and parameter[1][@type='com.evernote.android.job.JobRequest'] and parameter[2][@type='int']]/parameter[@name='p1']" name="name">flags</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.v14']/class[@name='JobProxy14']/method[@name='getPendingIntent' and parameter[1][@type='int']]/parameter[@name='p0']" name="name">jobId</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.v14']/class[@name='JobProxy14']/method[@name='getPendingIntent' and parameter[1][@type='int']]/parameter[@name='p1']" name="name">exact</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.v14']/class[@name='JobProxy14']/method[@name='getPendingIntent' and parameter[1][@type='int']]/parameter[@name='p2']" name="name">transientExtras</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.v14']/class[@name='JobProxy14']/method[@name='getPendingIntent' and parameter[1][@type='int']]/parameter[@name='p3']" name="name">flags</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.v14']/class[@name='JobProxy14']/method[@name='getTriggerAtMillis']/parameter[@name='p0']" name="name">request</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.v14']/class[@name='JobProxy14']/method[@name='getType']/parameter[@name='p0']" name="name">wakeup</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.v14']/class[@name='JobProxy14']/method[@name='isPlatformJobScheduled']/parameter[@name='p0']" name="name">request</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.v14']/class[@name='JobProxy14']/method[@name='plantOneOff']/parameter[@name='p0']" name="name">request</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.v14']/class[@name='JobProxy14']/method[@name='plantOneOffExact']/parameter[@name='p0']" name="name">request</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.v14']/class[@name='JobProxy14']/method[@name='plantOneOffExact']/parameter[@name='p1']" name="name">alarmManager</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.v14']/class[@name='JobProxy14']/method[@name='plantOneOffExact']/parameter[@name='p2']" name="name">pendingIntent</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.v14']/class[@name='JobProxy14']/method[@name='plantOneOffFlexSupport']/parameter[@name='p0']" name="name">request</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.v14']/class[@name='JobProxy14']/method[@name='plantOneOffFlexSupport']/parameter[@name='p1']" name="name">alarmManager</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.v14']/class[@name='JobProxy14']/method[@name='plantOneOffFlexSupport']/parameter[@name='p2']" name="name">pendingIntent</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.v14']/class[@name='JobProxy14']/method[@name='plantOneOffInexact']/parameter[@name='p0']" name="name">request</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.v14']/class[@name='JobProxy14']/method[@name='plantOneOffInexact']/parameter[@name='p1']" name="name">alarmManager</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.v14']/class[@name='JobProxy14']/method[@name='plantOneOffInexact']/parameter[@name='p2']" name="name">pendingIntent</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.v14']/class[@name='JobProxy14']/method[@name='plantPeriodic']/parameter[@name='p0']" name="name">request</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.v14']/class[@name='JobProxy14']/method[@name='plantPeriodicFlexSupport']/parameter[@name='p0']" name="name">request</attr>
+
+  <attr path="/api/package[@name='com.evernote.android.job.v14']/class[@name='PlatformAlarmReceiver']/method[@name='onReceive']/parameter[@name='p0']" name="name">context</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.v14']/class[@name='PlatformAlarmReceiver']/method[@name='onReceive']/parameter[@name='p1']" name="name">intent</attr>
+
+  <attr path="/api/package[@name='com.evernote.android.job.v14']/class[@name='PlatformAlarmServiceExact']/method[@name='createIntent']/parameter[@name='p0']" name="name">context</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.v14']/class[@name='PlatformAlarmServiceExact']/method[@name='createIntent']/parameter[@name='p1']" name="name">jobId</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.v14']/class[@name='PlatformAlarmServiceExact']/method[@name='createIntent']/parameter[@name='p2']" name="name">transientExtras</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.v14']/class[@name='PlatformAlarmServiceExact']/method[@name='onBind']/parameter[@name='p0']" name="name">intent</attr>
+
+  <attr path="/api/package[@name='com.evernote.android.job.v19']/class[@name='JobProxy19']/constructor[@name='JobProxy19']/parameter[@name='p0']" name="name">context</attr>
+
+  <attr path="/api/package[@name='com.evernote.android.job.v21']/class[@name='JobProxy21']/constructor[@name='JobProxy21']/parameter[@name='p0']" name="name">context</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.v21']/class[@name='JobProxy21']/constructor[@name='JobProxy21']/parameter[@name='p1']" name="name">logTag</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.v21']/class[@name='JobProxy21']/method[@name='cancel']/parameter[@name='p0']" name="name">jobId</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.v21']/class[@name='JobProxy21']/method[@name='convertNetworkType']/parameter[@name='p0']" name="name">networkType</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.v21']/class[@name='JobProxy21']/method[@name='createBaseBuilder']/parameter[@name='p0']" name="name">request</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.v21']/class[@name='JobProxy21']/method[@name='createBaseBuilder']/parameter[@name='p1']" name="name">allowPersisting</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.v21']/class[@name='JobProxy21']/method[@name='createBuilderOneOff']/parameter[@name='p0']" name="name">builder</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.v21']/class[@name='JobProxy21']/method[@name='createBuilderOneOff']/parameter[@name='p1']" name="name">startMs</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.v21']/class[@name='JobProxy21']/method[@name='createBuilderOneOff']/parameter[@name='p2']" name="name">endMs</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.v21']/class[@name='JobProxy21']/method[@name='createBuilderPeriodic']/parameter[@name='p0']" name="name">builder</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.v21']/class[@name='JobProxy21']/method[@name='createBuilderPeriodic']/parameter[@name='p1']" name="name">intervalMs</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.v21']/class[@name='JobProxy21']/method[@name='createBuilderPeriodic']/parameter[@name='p2']" name="name">flexMs</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.v21']/class[@name='JobProxy21']/method[@name='isJobInfoScheduled']/parameter[@name='p0']" name="name">info</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.v21']/class[@name='JobProxy21']/method[@name='isJobInfoScheduled']/parameter[@name='p1']" name="name">request</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.v21']/class[@name='JobProxy21']/method[@name='isPlatformJobScheduled']/parameter[@name='p0']" name="name">request</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.v21']/class[@name='JobProxy21']/method[@name='plantOneOff']/parameter[@name='p0']" name="name">request</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.v21']/class[@name='JobProxy21']/method[@name='plantPeriodic']/parameter[@name='p0']" name="name">request</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.v21']/class[@name='JobProxy21']/method[@name='plantPeriodicFlexSupport']/parameter[@name='p0']" name="name">request</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.v21']/class[@name='JobProxy21']/method[@name='schedule']/parameter[@name='p0']" name="name">jobInfo</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.v21']/class[@name='JobProxy21']/method[@name='scheduleResultToString']/parameter[@name='p0']" name="name">scheduleResult</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.v21']/class[@name='JobProxy21']/method[@name='setTransientBundle']/parameter[@name='p0']" name="name">request</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.v21']/class[@name='JobProxy21']/method[@name='setTransientBundle']/parameter[@name='p1']" name="name">builder</attr>
+
+  <attr path="/api/package[@name='com.evernote.android.job.v21']/class[@name='PlatformJobService']/method[@name='onStartJob']/parameter[@name='p0']" name="name">parameters</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.v21']/class[@name='PlatformJobService']/method[@name='onStopJob']/parameter[@name='p0']" name="name">parameters</attr>
+
+  <attr path="/api/package[@name='com.evernote.android.job.v24']/class[@name='JobProxy24']/constructor[@name='JobProxy24']/parameter[@name='p0']" name="name">context</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.v24']/class[@name='JobProxy24']/constructor[@name='JobProxy24']/parameter[@name='p1']" name="name">logTag</attr>
+
+  <attr path="/api/package[@name='com.evernote.android.job.v26']/class[@name='JobProxy26']/constructor[@name='JobProxy26']/parameter[@name='p0']" name="name">context</attr>
+  <attr path="/api/package[@name='com.evernote.android.job.v26']/class[@name='JobProxy26']/constructor[@name='JobProxy26']/parameter[@name='p1']" name="name">logTag</attr>
+</metadata>
